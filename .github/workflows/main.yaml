@@ -3,7 +3,7 @@ name: Build Website
 on:
   push:
     branches:
-      - main  # Adjust to your main branch name
+      - master  # Adjust to your main branch name
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Choose your Python version
+        python-version: '3.9'  # Choose your Python version
 
     - name: Install Jupyter
       run: |
