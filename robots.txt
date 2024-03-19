@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://raghuvaryas.github.io/raghuvarya/./sitemap.xml
+Sitemap: https://raghuvaryas/raghuvarya/./sitemap.xml
